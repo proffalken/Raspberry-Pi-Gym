@@ -7,6 +7,11 @@ Multi-threaded code to handle each of the tasks, communicating via Queue or sock
 
 Related presentation to Raspberry Pint on 25 July 2017 can be found https://prezi.com/9dxeynmyy-eo/pi-trainer/
 
+## Running pytrainer
+
+As *root* on your pi, run `python setup.py install`, then execute `./run.py`
+
+
 ## Testing
 
 To test PiTrainer, clone this repo and create a virtual environment as the *root* user on your pi (we
